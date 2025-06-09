@@ -21,21 +21,21 @@ export function Header({ className }: SidebarProps) {
   const items = [
     {
       href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
-      title: 'Book a demo',
+      title: 'Preregister',
       openInNewTab: true
+    },
+    { href: '#pricing', title: 'Features' },
+    {
+      href: 'https://www.youtube.com/@doctorhoot',
+      title: 'youtube'
     }
-    // { href: '#pricing', title: 'Features' },
-    // {
-    //   href: 'mailto:myemail@.com',
-    //   title: 'Contact Us'
-    // }
   ]
 
   const getLogo = () => (
     <Link href="/" className="pointer flex items-center">
-      <img src="/logo.svg" className="mr-3" />
+      <img src="/logo_no-bg.png" className="mr-3 w-6 h-6" />
       <Typography className="!text-white !text-base font-medium ">
-        Pandem
+        Dr.Hoot
       </Typography>
     </Link>
   )
@@ -102,15 +102,15 @@ export function Header({ className }: SidebarProps) {
           <div className="md:flex-0 min-w-fit flex-1">
             {getLogo()}
           </div>
-          <div className="hidden md:flex flex items-center w-full">
+          <div className="md:flex flex items-center w-full">
             <div className="flex items-center gap-x-8 flex-1">
               {getHeaderItems()}
             </div>
-            {getAuthButtons()}
+            {/* {getAuthButtons()} */}
           </div>
           {/* Mobile */}
           <div className="md:hidden flex gap-x-4 items-center">
-            {getAuthButtons()}
+            {/* {getAuthButtons()} */}
             <Drawer direction="right">
               <DrawerTrigger asChild>
                 <MenuIcon />

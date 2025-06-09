@@ -13,7 +13,7 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Focus more with Doctor hoot
+          Focus more with Doctor Hoot
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
           The Pomodoro technique helps you focus on your tasks by breaking them into intervals.
@@ -24,7 +24,7 @@ export default function Home() {
           target="_blank"
         >
           <Button size="tiny" variant="ghost">
-            {`Get Started`}
+            {`Read more about Pomodoro`}
           </Button>
         </Link>
         <Image
@@ -36,14 +36,14 @@ export default function Home() {
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
-          {/* <Typography className="max-w-2xl" variant="h1">
-            Quick solutions, less stress
-          </Typography> */}
+          <Typography className="max-w-2xl" variant="h1">
+            Coming soon
+          </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Timer size={24} />}
               headline="Pomodoro Technique, Perfected"
-              description="Work in structured bursts with smart breaks — backed by science."
+              description="Work in structured bursts with smart breaks, backed by science. Tailored to your personal rhythm."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
@@ -62,8 +62,8 @@ export default function Home() {
             Why Doctor Hoot?
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-Modern life is noisy. Notifications, scrolling, background stress — it all chips away at your focus. Doctor Hoot is here to change that.
-Whether you’re studying, coding, writing, or just trying to think — we help you stay sharp and on track.
+Modern life is noisy. Notifications, scrolling, background stress, it all chips away at your focus. Doctor Hoot is here to change that.
+Whether you’re studying, coding, writing, or just trying to think, we help you stay sharp and on track.
           </Typography>
           <Image
             width={1024}
@@ -73,16 +73,16 @@ Whether you’re studying, coding, writing, or just trying to think — we help 
           />
         </div>
         <div className="flex flex-col gap-6 items-center">
-          <Typography className="max-w-2xl" variant="h1">
-            Get in touch
+          <Typography className="max-w-2xl font-[60px]" variant="h1">
+            HOOT HOOT, MOTHERFUCKER!
           </Typography>
-          <div>Book a demo, or hop on a call</div>
+          <div>Pre-register now. work efficient soon.</div>
           <Link
             href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
             target="_blank"
           >
             <Button size="tiny" variant="ghost">
-              {`Book now`}
+              {`pre-register`}
             </Button>
           </Link>
         </div>

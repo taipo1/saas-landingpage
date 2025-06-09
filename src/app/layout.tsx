@@ -10,18 +10,18 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title:
-    'Pandem - Information you need during on-call emergencies',
+    'Dr.hoot - Your buddy in focus and productivity',
   description:
-    'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
+    'Dr.hoot is a pomodoro timer service. the tool for your custom pomodoro sessions, designed to help you focus and be productive.',
   openGraph: {
     images: '/opengraph-image.png'
   },
   twitter: {
     card: 'summary_large_image',
     title:
-      'Pandem - Information you need during on-call emergencies',
+      'Dr.hoot - Your buddy in focus and productivity',
     description:
-      'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
+      'Dr.hoot is a pomodoro timer service. the tool for your custom pomodoro sessions, designed to help you focus and be productive.',
     images: ['https://i.imgur.com/MPMcyPP.png']
   }
 }

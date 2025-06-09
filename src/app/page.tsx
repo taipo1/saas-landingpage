@@ -13,12 +13,11 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Information you need during on-call emergencies
+          Focus more with Doctor hoot
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly link new on-call tickets to similar past
-          incidents and their solutions. All directly in
-          Slack the moment an incident happens.
+          The Pomodoro technique helps you focus on your tasks by breaking them into intervals.
+          It is a time management method that uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks.
         </Typography>
         <Link
           href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
@@ -32,46 +31,45 @@ export default function Home() {
           width={1024}
           height={632}
           alt="Pandem.dev hero image"
-          src="/hero1.png"
+          src="/ancient-egypt-thinker.webp"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
-          <Typography className="max-w-2xl" variant="h1">
+          {/* <Typography className="max-w-2xl" variant="h1">
             Quick solutions, less stress
-          </Typography>
+          </Typography> */}
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Timer size={24} />}
-              headline="Fix emergencies fast"
-              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
+              headline="Pomodoro Technique, Perfected"
+              description="Work in structured bursts with smart breaks — backed by science."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
-              headline="Universally compatible"
-              description="Works with PagerDuty, Jira, or custom Slack alerts—Pandem integrates with any system"
+              headline="Gamified Sessions"
+              description="Every completed session earns you progress in Sniper Owl, our built-in focus game."
             />
             <Feature
               icon={<Workflow size={24} />}
-              headline="Secure for your org"
-              description="We keep your data safe by taking top security measures."
+              headline="Minimal, Mature, Effective"
+              description="Clean interface. No clutter. Designed to help you think better, not click more."
             />
           </div>
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Instant setup, no custom code
+            Why Doctor Hoot?
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Quickly link new on-call tickets to similar past
-            incidents and their solutions. All directly in
-            Slack the moment an incident happens.
+Modern life is noisy. Notifications, scrolling, background stress — it all chips away at your focus. Doctor Hoot is here to change that.
+Whether you’re studying, coding, writing, or just trying to think — we help you stay sharp and on track.
           </Typography>
           <Image
             width={1024}
             height={632}
             alt="Pandem.dev hero image"
-            src="/hero1.png"
+            src="/why-doctor-hoot.webp"
           />
         </div>
         <div className="flex flex-col gap-6 items-center">

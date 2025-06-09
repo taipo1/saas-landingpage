@@ -27,7 +27,7 @@ export function Header({ className }: SidebarProps) {
     // { href: '#pricing', title: 'Features' },
     {
       href: 'https://www.youtube.com/@doctorhoot',
-      title: 'youtube',
+      title: 'Youtube',
       openInNewTab: true
     }
   ]

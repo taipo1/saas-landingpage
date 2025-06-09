@@ -27,7 +27,7 @@ export function Footer() {
               Book a demo
             </Typography>
           </Link> */}
-          <Link
+          {/* <Link
             href="/terms-of-service"
             className="pointer block w-fit flex-1"
           >
@@ -42,7 +42,7 @@ export function Footer() {
             <Typography variant="p">
               Privacy Policy
             </Typography>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>

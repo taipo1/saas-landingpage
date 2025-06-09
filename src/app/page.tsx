@@ -52,8 +52,8 @@ export default function Home() {
             />
             <Feature
               icon={<Laptop size={24} />}
-              headline="Minimal, Mature, Effective"
-              description="Clean interface. No clutter. Designed to help you think better, not click more."
+              headline="More effective daily routine"
+              description="Designed to help you think better, focus more, and be more productive."
             />
           </div>
         </div>
@@ -76,7 +76,7 @@ Whether you’re studying, coding, writing, or just trying to think, we help you
           <Typography className="max-w-2xl font-[60px]" variant="h1">
             HOOT HOOT, MOTHERFUCKER!
           </Typography>
-          <div>More comming soon!</div>
+          <div>More coming soon!</div>
           <Link
             href="mailto:ramsey@exitcode0.nl"
             target="_blank"

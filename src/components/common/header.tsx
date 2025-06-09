@@ -19,15 +19,16 @@ interface SidebarProps
 export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
-    {
-      href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
-      title: 'Preregister',
-      openInNewTab: true
-    },
-    { href: '#pricing', title: 'Features' },
+    // {
+    //   href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
+    //   title: 'Preregister',
+    //   openInNewTab: true
+    // },
+    // { href: '#pricing', title: 'Features' },
     {
       href: 'https://www.youtube.com/@doctorhoot',
-      title: 'youtube'
+      title: 'youtube',
+      openInNewTab: true
     }
   ]
 
